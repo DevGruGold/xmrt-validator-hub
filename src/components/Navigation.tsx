@@ -19,7 +19,7 @@ const Navigation = () => {
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
               <span className="text-2xl font-bold text-primary">XMRT</span>
-              <span className="text-2xl font-light text-secondary ml-2">Validators</span>
+              <span className="text-2xl font-light text-secondary ml-2">Asset Validation</span>
             </Link>
           </div>
           

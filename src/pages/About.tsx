@@ -8,8 +8,8 @@ const About = () => {
         <div className="text-center mb-16">
           <h1 className="text-4xl font-bold text-primary mb-6">About XMRT Validators</h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We are the trusted backbone of the XMRT blockchain, ensuring integrity,
-            security, and scalability of the decentralized ecosystem.
+            We are a trusted network of professional validators specializing in the authentication
+            and validation of tokenized assets, collectibles, and digital properties.
           </p>
         </div>
 
@@ -18,18 +18,18 @@ const About = () => {
           {[
             {
               icon: Shield,
-              title: "Security First",
-              description: "We prioritize the safety and integrity of the XMRT network through robust validation protocols."
+              title: "Professional Standards",
+              description: "Our network maintains the highest standards of asset validation and authentication."
             },
             {
               icon: Users,
-              title: "Community Driven",
-              description: "Our network of validators represents a diverse, global community committed to decentralization."
+              title: "Expert Network",
+              description: "Connect with certified appraisers, notaries, and authentication specialists."
             },
             {
               icon: Globe,
-              title: "Global Impact",
-              description: "We're building a more accessible and transparent financial future for everyone."
+              title: "Global Reach",
+              description: "Access validation services for digital assets worldwide."
             }
           ].map((value, index) => (
             <div key={index} className="text-center p-6">
@@ -47,32 +47,31 @@ const About = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
             <p className="text-lg opacity-90">
-              To create a secure, decentralized, and accessible blockchain ecosystem
-              that empowers individuals and organizations to participate in the future
-              of finance and technology.
+              To provide secure, professional validation services for tokenized assets while maintaining
+              the highest standards of authenticity and trust in the digital age.
             </p>
           </div>
         </div>
 
         {/* Team Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold mb-12">Meet Our Top Validators</h2>
+          <h2 className="text-3xl font-bold mb-12">Our Expert Validators</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                name: "NodeMaster27",
-                role: "Lead Validator",
-                achievement: "Secured 12,000 blocks this month"
+                name: "ArtAuth Pro",
+                role: "Fine Art Specialist",
+                achievement: "Validated over 500 digital art pieces"
               },
               {
-                name: "CryptoGuardians",
-                role: "Regional Validator",
-                achievement: "Active in 3 regions"
+                name: "PropTech Validators",
+                role: "Real Estate Authentication",
+                achievement: "Leading tokenized property validation"
               },
               {
-                name: "GlobalChainers",
-                role: "Integration Specialist",
-                achievement: "Leading cross-chain integrations"
+                name: "CollectibleGuard",
+                role: "Collectibles Expert",
+                achievement: "Specialized in rare digital collectibles"
               }
             ].map((member, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-lg">

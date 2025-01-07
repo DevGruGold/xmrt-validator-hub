@@ -9,16 +9,16 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 animate-fadeIn">
-              Securing the Network,<br />Empowering the Future
+              Professional Asset<br />Validation Network
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-90 animate-fadeIn">
-              Join the trusted backbone of the XMRT blockchain
+              Secure validation for tokenized assets, collectibles, and digital properties
             </p>
             <Link
               to="/contact"
               className="inline-flex items-center px-6 py-3 bg-accent hover:bg-accent-hover text-white rounded-lg transition-colors animate-fadeIn"
             >
-              Become a Validator
+              Join Our Network
               <ArrowRight className="ml-2" size={20} />
             </Link>
           </div>
@@ -28,20 +28,20 @@ const Index = () => {
       {/* Features Section */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">Why Become an XMRT Validator?</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Why Choose XMRT Validators?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Earn Rewards",
-                description: "Validators earn XMRT tokens for securing the network and validating transactions."
+                title: "Professional Validation",
+                description: "Secure validation services for digital assets, NFTs, and tokenized real-world items."
               },
               {
-                title: "Contribute to Decentralization",
-                description: "Strengthen the XMRT ecosystem by spreading power across diverse nodes."
+                title: "Trusted Network",
+                description: "Join a network of certified appraisers, notaries, and authentication experts."
               },
               {
-                title: "Be Part of the Future",
-                description: "Join a cutting-edge platform pushing the boundaries of blockchain technology."
+                title: "Blockchain Security",
+                description: "Leverage blockchain technology to create immutable records of asset validation."
               }
             ].map((feature, index) => (
               <div
@@ -61,7 +61,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Ready to Start Validating?</h2>
           <p className="text-white/90 mb-8 text-lg">
-            Join our community of validators and help secure the future of blockchain
+            Join our network of professional validators and help secure the future of digital assets
           </p>
           <Link
             to="/resources"
