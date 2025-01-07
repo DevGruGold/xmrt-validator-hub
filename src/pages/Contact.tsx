@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Mail, Phone, Send } from "lucide-react";
+import { Mail, Phone, Send, MessageSquare, Book } from "lucide-react";
 import { toast } from "sonner";
 
 const Contact = () => {
